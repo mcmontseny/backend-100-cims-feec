@@ -17,6 +17,7 @@ Aquest projecte és una API backend desenvolupada amb Node.js, Express, i TypeSc
 El projecte utilitza variables d'entorn per a la configuració. Canvia el nom del fitxer `.env.sample` a `.env` i proporciona els valors necessaris:
 
 ```env
+PORT=port_de_l'aplicació
 SUPABASE_URL=la_teva_supabase_url
 SUPABASE_KEY=la_teva_supabase_key
 STRAVA_CLIENT_ID=el_teu_strava_client_id
@@ -93,7 +94,7 @@ backend-100-cims-feec/
     npm start
     ```
 
-2. L'API estarà disponible a `http://localhost:3000`.
+2. L'API estarà disponible a `http://localhost:3000`. (Pot ser diferent, si has canviat la variable `PORT` al fitxer `.env`).
 
 ### Endpoints
 
