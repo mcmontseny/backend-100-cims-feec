@@ -1,0 +1,14 @@
+# Ignorar el directorio node_modules
+/node_modules
+
+# Ignorar archivos de entorno
+/.env
+
+# Ignorar el directorio de distribución
+/dist
+
+# Ignorar archivos de log
+*.log
+
+# Webstorm
+.idea
