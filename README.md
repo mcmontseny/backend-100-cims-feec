@@ -100,15 +100,15 @@ backend-100-cims-feec/
 
 #### Activitats
 
-- `GET /api/activities`: Obté totes les activitats.
+- `GET /api/v1/activities`: Obté totes les activitats.
 
 #### Muntanyes
 
-- `GET /api/mountains`: Obté totes les muntanyes.
+- `GET /api/v1/mountains`: Obté totes les muntanyes.
 
 #### Ascensions
 
-- `GET /api/ascents`: Obté totes les ascensions.
+- `GET /api/v1/ascents`: Obté totes les ascensions.
 
 ## Contribucions 📝
 
